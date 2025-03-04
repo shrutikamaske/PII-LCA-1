@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procrastination Issues</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+         /* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+/* Navigation */
+nav ul {
+    background-color: darkblue;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Flexbox Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content {
+    width: 65%;
+    padding: 15px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #ddd;
+    padding: 15px;
+    border-left: 4px solid #333;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid darkblue;
+}
+
+/* Form Styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Procrastination Issues</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <article class="content">
+            <header>
+                <h2>Understanding Procrastination</h2>
+            </header>
+            <p><b>Procrastination</b> is the act of delaying tasks due to <em>fear, distractions, or lack of motivation</em>.</p>
+            <p>Many people struggle with <mark>time management</mark> and <strong>discipline</strong>, leading to missed deadlines.</p>
+        </article>
+
+        <aside class="sidebar">
+            <h2>Quick Productivity Tips</h2>
+            <ul>
+                <li>Use the <u>Pomodoro Technique</u></li>
+                <li>Break tasks into <i>small steps</i></li>
+                <li>Set a timer for focused work</li>
+                <li>Avoid distractions like <mark>social media</mark></li>
+            </ul>
+        </aside>
+    </main>
+
+    <section id="about">
+        <h2>About Procrastination</h2>
+        <p><strong>Fun Fact:</strong> Procrastination is often linked to <mark>perfectionism</mark>!</p>
+        <p>Learn more about how <small>distractions</small> impact productivity.</p>
+    </section>
+
+    <section class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </section>
+
+    <section>
+        <h2>Comparison Table</h2>
+        <table>
+            <tr>
+                <th>Cause</th>
+                <th>Effect</th>
+            </tr>
+            <tr>
+                <td>Distractions</td>
+                <td>Poor Productivity</td>
+            </tr>
+            <tr>
+                <td>Fear of Failure</td>
+                <td>Task Avoidance</td>
+            </tr>
+            <tr>
+                <td>Lack of Motivation</td>
+                <td>Missed Deadlines</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <details>
+        <summary>Click to learn more about procrastination</summary>
+        <p>Procrastination often occurs when tasks feel overwhelming or boring.</p>
+    </details>
+
+    <footer>
+        <p>&copy; 2025 Procrastination Awareness. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

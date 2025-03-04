@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Natural skincare products for healthy skin.">
+    <title>Skincare Brand - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #f9f9f9;
+        }
+
+        header {
+            background: #76b25a;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background: white;
+            color: #76b25a;
+        }
+
+        /* Homepage Content */
+        .home-content {
+            text-align: center;
+            margin-top: 80px;
+            padding: 50px 20px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #76b25a;
+            text-align: center;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Skincare Brand</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home-content">
+        <h2>Welcome to Our Skincare Brand</h2>
+        <p>We offer a range of natural skincare products designed to nourish and rejuvenate your skin.</p>
+        <div class="image-grid">
+            <img src="beauty-portrait-lovely-half-naked-woman.jpg" alt="Skincare Routine Illustration">
+            <img src="close-up-smiley-woman-with-beauty-tools.jpg" alt="Beauty Tools">
+            <img src="cosmetologist-cleaning-face-woman-beauty-salon.jpg" alt="Facial Treatment">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Skincare Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>

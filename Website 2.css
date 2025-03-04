@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Skincare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Glow Skincare</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Your Skin Deserves the Best</h2>
+        <p>Discover our range of natural skincare products.</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Glow Skincare, we believe in the power of nature. Our products are made with organic ingredients to nourish your skin.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200?text=Moisturizer" alt="Moisturizer">
+            <h3>Moisturizer</h3>
+            <p>Hydrate your skin with our all-natural moisturizer.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200?text=Face+Serum" alt="Face Serum">
+            <h3>Face Serum</h3>
+            <p>Revitalize your skin with our rejuvenating face serum.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200?text=Exfoliating+Scrub" alt="Exfoliating Scrub">
+            <h3>Exfoliating Scrub</h3>
+            <p>Gently exfoliate your skin for a radiant glow.</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"Glow Skincare has transformed my skin! I love the moisturizer!"</p>
+            <h4>- Sarah J.</h4>
+        </div>
+        <div class="testimonial">
+            <p>"The face serum is a game changer. Highly recommend!"</p>
+            <h4>- Mark T.</h4>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <article>
+            <h3>5 Tips for Healthy Skin</h3>
+            <p>Discover essential tips to keep your skin glowing and healthy.</p>
+            <a href="#">Read More</a>
+        </article>
+        <article>
+            <h3>The Benefits of Natural Ingredients</h3>
+            <p>Learn why natural ingredients are better for your skin.</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Glow Skincare. All rights reserved.</p>
+        <div class="social-media">
+           

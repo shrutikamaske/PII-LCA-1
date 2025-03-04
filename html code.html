@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <nav className="navbar">
+      <h1 className="logo">Mirasol</h1>
+      <ul className="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button className="menu-btn">☰</button>
+    </nav>
+
+    <div className="hero-section">
+      <h2>Glow Naturally with Mirasol</h2>
+      <p>Discover skincare products that nourish and rejuvenate your skin.</p>
+      <button className="shop-btn">Shop Now</button>
+    </div>
+    <section className="introduction">
+      <div className="container">
+        <h2>About Mirasol</h2>
+        <p>
+          At Mirasol, we believe in the power of natural skincare. Our mission is to
+          create gentle, effective, and environmentally friendly products that nourish
+          your skin without compromise. With a blend of science and nature, we offer
+          skincare solutions that help you glow naturally.
+        </p>
+
+      </div>
+    </section>
+    <div>
+      <Navbar />
+      <Home />
+      <Introduction />
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Skincare Brand</h1>
+            <p>Your journey to radiant skin starts here.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+          <h2>Our Products</h2>
+          <div class="category-list">
+              <div class="category-item">
+                  <img src="face gel wash.jpg" alt="gel face wash">
+                  <h3>Cleansers</h3>
+              </div>
+              <div class="category-item">
+                  <img src="moisturizer.jpg" alt="Moisturizers">
+                  <h3>Moisturizers</h3>
+              </div>
+              <div class="category-item">
+                  <img src="cleansers.jpg" alt="cleansers">
+                  <h3>Serums</h3>
+              </div>
+              <div class="category-item">
+                  <img src="mask.jpg" alt="Masks">
+                  <h3>Masks</h3>
+              </div>
+              <div class="category-item">
+                  <img src="sunscreen.jpg" alt="Sunscreen">
+                  <h3>Sunscreen</h3>
+              </div>
+              <div class="category-item">
+                  <img src="toner.jpg" alt="Toners">
+                  <h3>Toners</h3>
+              </div>
+              <div class="category-item">
+                  <img src="eyecream.jpg" alt="Eye Cream">
+                  <h3>Eye Cream</h3>
+              </div>
+              <div class="category-item">
+                  <img src="exfoliator.jpg" alt="Exfoliators">
+                  <h3>Exfoliators</h3>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <style>
+  .categories {
+      padding: 20px 0;
+  }
+  
+  .categories .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  .categories h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .categories .category-list {
+      display: flex;
+      overflow-x: auto; /* Enable horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+      padding-bottom: 10px; /* Add some padding for the scrollbar */
+      white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .categories .category-item {
+      text-align: center;
+      margin: 0 10px;
+      min-width: 150px; /* Set a minimum width for each item */
+      display: inline-block; /*Needed for horizontal scrolling*/
+  }
+  
+  .categories .category-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+  }
+  
+  .categories .category-item h3 {
+      font-size: 16px;
+      margin: 0;
+  }
+  </style>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Skincare Brand. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Procrastination</title>
+</head>
+<body>
+
+    <header>
+        <h1>The Issues I Have in Life</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#issues">Procrastination Issues</a></li>
+            <li><a href="#image">Procrastination Picture</a></li>
+            <li><a href="#article">Why We Procrastinate</a></li>
+            <li><a href="#feedback">Feedback Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="issues">
+            <h2>Procrastination Issues</h2>
+            <p>I have <mark>Procrastination Issues</mark> that affect my productivity.</p>
+            <h3>Why do I procrastinate?</h3>
+            <ul>
+                <li>Lack of motivation</li>
+                <li>Fear of failure</li>
+                <li>Poor time management</li>
+                <li>Too many distractions</li>
+            </ul>
+        </section>
+
+        <section id="image">
+            <h2>My Procrastination Picture</h2>
+            <div>
+                <img src="procrastination-img.jpg" alt="Image showing procrastination" width="300">
+            </div>
+        </section>
+
+        <article id="article">
+            <header>
+                <h2>Why We Procrastinate</h2>
+                <p><em>Understanding the psychology behind procrastination</em></p>
+            </header>
+            <p>Procrastination is often a result of <mark>psychological barriers</mark> like fear of failure or perfectionism. Many people delay tasks not because they are lazy, but because they feel overwhelmed or unsure where to start.</p>
+            <details>
+                <summary>Click to learn more</summary>
+                <p>Studies show that setting small, achievable goals can help reduce procrastination.</p>
+            </details>
+        </article>
+
+        <aside>
+            <h2>Quick Productivity Tips</h2>
+            <ul>
+                <li>Use the Pomodoro technique</li>
+                <li>Break large tasks into smaller steps</li>
+                <li>Eliminate distractions (like social media!)</li>
+                <li>Reward yourself for completing tasks</li>
+            </ul>
+        </aside>
+
+        <section id="feedback">
+            <h2>Feedback Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Thoughts on Procrastination:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 My Procrastination. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

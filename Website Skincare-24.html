@@ -1,0 +1,35 @@
+const Navbar = () => {
+    return (
+      <nav className="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-gray-800">Mirasol</h1>
+        <ul className="flex space-x-6 text-gray-700">
+          <li className="hover:text-gray-900 cursor-pointer">Home</li>
+          <li className="hover:text-gray-900 cursor-pointer">Shop</li>
+          <li className="hover:text-gray-900 cursor-pointer">About</li>
+          <li className="hover:text-gray-900 cursor-pointer">Blog</li>
+          <li className="hover:text-gray-900 cursor-pointer">Contact</li>
+        </ul>
+      </nav>
+    );
+  };
+  
+  const Home = () => {
+    return (
+      <div className="text-center py-20 bg-gradient-to-b from-yellow-50 to-white">
+        <h2 className="text-4xl font-semibold text-gray-800">Glow Naturally with Mirasol</h2>
+        <p className="mt-4 text-gray-600">Discover skincare products that nourish and rejuvenate.</p>
+        <button className="mt-6 px-6 py-2 bg-yellow-500 text-white rounded-full hover:bg-yellow-600">Shop Now</button>
+      </div>
+    );
+  };
+  
+  const App = () => {
+    return (
+      <div>
+        <Navbar />
+        <Home />
+      </div>
+    );
+  };
+  
+  export default App;
